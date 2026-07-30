@@ -1,0 +1,41 @@
+# Core web framework
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart
+websockets
+sqlmodel>=0.0.16
+aiosqlite
+pydantic-settings
+
+# ML / training stack (install into a CUDA-enabled env, e.g. conda env `torch_in`)
+torch>=2.2
+transformers>=4.40
+peft>=0.10
+trl>=0.8
+accelerate>=0.29
+datasets>=2.18
+bitsandbytes>=0.43 ; platform_system != "Darwin"
+sentencepiece
+protobuf
+huggingface_hub
+
+# Optional / advanced backends (install separately, not required for core LoRA/QLoRA flows)
+# unsloth
+# deepspeed
+# flash-attn
+# xformers
+# vllm
+# auto-gptq
+# autoawq
+
+# GPU / system monitoring
+pynvml
+psutil
+
+# Utilities
+orjson
+python-dotenv
+
+# Dataset Manager
+pyarrow
+langdetect

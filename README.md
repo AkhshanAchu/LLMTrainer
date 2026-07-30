@@ -189,6 +189,5 @@ Building all of that to a real, working standard in one pass isn't feasible, so 
 - **Evaluation suites** (MMLU, HumanEval, MT-Bench, etc.), **experiment tracking integrations** (W&B, MLflow), and the **visual pipeline editor** are not implemented in this pass.
 - **VLM (vision-language model) training** is not implemented, though vision models are browsable/downloadable in the Model Manager and flagged as such.
 
-## License
-
-Choose a license for your fork/use (MIT is a reasonable default for a project like this) — none is currently specified.
+---
+Made with ❤️ from NiceGuy
